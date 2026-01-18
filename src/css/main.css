@@ -1,25 +1,16 @@
 .hero-section{
-    background-image: url("/img/hero/mob.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+  background: radial-gradient(161.47% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, #278ac4 100%);
 }
 .hero-title{
     font-family: "Afacad", sans-serif;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 1.08333;
-        text-transform: uppercase;
-        text-align: center;
-        color: #fff;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
         margin-top: 90px;
 
-}
-.hero-span{
-    background: linear-gradient(166deg, #001f7b 0%, #278ac4 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
 }
 .hero-list{
     margin-top: 64px;
@@ -42,7 +33,7 @@
     border: 1px solid transparent;
 
     background:
-        linear-gradient(180deg, #001f7b 0%, #2aa0ee 100%) padding-box,
+    linear-gradient(180deg, rgba(84, 0, 201, 0.9) 0%, rgba(41, 0, 99, 0.9) 100%) padding-box,
         transparent border-box;
 
     transition: box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
@@ -50,8 +41,8 @@
 
 .hero-item:hover {
     background:
-        linear-gradient(180deg, #001f7b 0%, #2aa0ee 100%) padding-box,
-        linear-gradient(166deg, #e8ba30 0%, #ff5f00 100%) border-box;
+    linear-gradient(180deg, rgba(84, 0, 201, 0.9) 0%, rgba(41, 0, 99, 0.9) 100%) padding-box,
+    linear-gradient(166deg, #e8ba30 0%, #ff2d55 100%) border-box;
 
     box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.4);
 }
@@ -91,16 +82,14 @@
         width: 209px;
         height: 48px;
         box-shadow: 0 0 40px 0 rgba(140, 204, 51, 0.15);
-            background: linear-gradient(166deg, #e8ba30 0%, #ff5f00 100%);
+        background: linear-gradient(166deg, #e8ba30 0%, #ff2d55 100%);
             transition: all 0.3s ease-in-out;
 }
 .hero-link:hover{
 transform: scale(1.1);
 }
 @media only screen and (min-width: 1440px) {
-    .hero-section{
-        background-image: url("/img/hero/desk.png");
-    }
+
     .hero-title{
         font-size: 52px;
 
@@ -127,37 +116,51 @@ transform: scale(1.1);
     background-size: cover;
     height: 1160px;
 }
+.about-container{
+  padding-top: 133px;
+  padding-bottom: 500px;
+  position: relative;
+}
 .about-title{
     font-family: "Afacad", sans-serif;
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 1.04545;
-        background: linear-gradient(166deg, #001f7b 0%, #278ac4 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 105%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
 }
 .about-text{
-    text-align: justify;
     margin-top: 28px;
 }
-.about-container{
-    padding-top: 79px;
+.about-img-one{
+  position: absolute;
+  bottom: 12%;
+  right: 0;
+}
+.about-img-two{
+  position: absolute;
+  bottom: -20%;
+  left: 0;
 }
 @media only screen and (min-width: 1440px) {
  .about-section{
-    background-image: url("/img/about/desk.png");
+    background-image: url("/img/about/desk.jpg");
     height: 800px;
  }
  .about-container{
-    padding: 221px 399px;
+    padding: 190px 399px;
  }
 .about-title{
-    font-size: 60px;
-        line-height: 1.06667;
+  font-size: 60px;
+  line-height: 107%;
 }
 .about-text{
     margin-top: 32px;
+}
+.about-img-one,
+.about-img-two{
+  display: none;
 }
 }
 /* FAQ */
