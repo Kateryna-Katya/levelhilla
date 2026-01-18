@@ -164,31 +164,25 @@ transform: scale(1.1);
 }
 }
 /* FAQ */
-.faq-section{
-    background-image: url("/img/faq/mob.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-}
 .faq-title{
     font-family: "Afacad", sans-serif;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 1.375;
-        text-align: center;
-        color: #001f7b;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 138%;
+    text-align: center;
+    color: #4c0577;
 }
 .faq-span{
-    background: linear-gradient(166deg, #001f7b 0%, #278ac4 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+  background: linear-gradient(166deg, #001f7b 0%, #278ac4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 .faq-acc {
     display: flex;
     flex-direction: column;
-    width: 336px;
+    width: 335px;
     margin: 64px auto 0;
     margin-bottom: 16px;
 }
@@ -203,7 +197,7 @@ border: 1px solid #ffe100;
     padding: 18px 16px;
     width: 335px;
     height: 92px;
-    background: linear-gradient(90deg, #e8ba30 0%, #ff5f00 100%);
+    background: linear-gradient(90deg, #ff006f 0%, #900000 100%);
 font-family: "Afacad", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -233,7 +227,7 @@ font-family: "Afacad", sans-serif;
     border-left: 1px solid #ffe100;
     border-right: 1px solid #ffe100;
     border-bottom: 1px solid #ffe100;
-background: linear-gradient(90deg, #e8ba30 0%, #ff5f00 100%);
+    background: linear-gradient(90deg, #ff006f 0%, #900000 100%);
     padding: 0px 16px 16px;
     width: 335px;
         font-family: "Afacad", sans-serif;
@@ -275,7 +269,7 @@ border-bottom: none;
     border-left: 1px solid #ffe100;
         border-right: 1px solid #ffe100;
         border-bottom: 1px solid #ffe100;
-        background: linear-gradient(90deg, #e8ba30 0%, #ff5f00 100%);
+        background: linear-gradient(90deg, #ff006f 0%, #900000 100%);
 border-radius:0 0 12px 12px;
     padding: 0 16px 18px;
     width: 335px;
@@ -291,9 +285,6 @@ border-radius:0 0 12px 12px;
     transform: rotate(180deg);
 }
 @media only screen and (min-width: 1440px) {
-    .faq-section{
-        background-image: url("/img/faq/desk.png");
-            }
 
     .faq-title{
         font-size: 52px;
