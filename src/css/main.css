@@ -308,24 +308,24 @@ border-radius:0 0 12px 12px;
 }
 /* allow */
 .allow-section{
-    background-image: url("/img/allow/mob.png");
+    background-image: url("/img/allow/mob.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
 }
-.allow-wrapper{
-    border: 1px solid rgba(130, 148, 177, 0.5);
-        border-radius: 14px;
-        padding: 28px 16px;
-        width: 335px;
-        height: 854px;
-background: radial-gradient(circle,
-            rgba(3, 124, 60, 0.3) 0%,
-            rgba(0, 0, 0, 0.3) 100%
-        );
-display: flex;
-flex-direction: column;
-align-items: center;
+.allow-wrapper {
+  border: 1px solid rgba(130, 148, 177, 0.5);
+  border-radius: 14px;
+  padding: 28px 16px;
+  width: 335px;
+  height: 854px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .allow-title{
     font-family: "Afacad", sans-serif;
@@ -359,7 +359,7 @@ background-image: radial-gradient(circle,
             rgba(255, 255, 255, 0) 100%
             /* прозорі краї */
         ),
-        url("/img/allow/desk.png");
+        url("/img/allow/desk.jpg");
   }
   .allow-wrapper{
     padding: 52px 31px;
