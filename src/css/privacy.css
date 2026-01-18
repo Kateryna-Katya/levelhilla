@@ -15,10 +15,10 @@ color: #000;
 }
 .policies-title{
   font-weight: 700;
-font-size: 40px;
-line-height: 120%;
-text-align: center;
-color: #001f7b;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #4c0577;
 margin-top: 100px;
 margin-bottom: 40px;
 }
@@ -37,5 +37,9 @@ margin-bottom: 40px;
   .policies-continer{
     padding-left: 80px;
     padding-right: 80px;
+  }
+  .policies-title{
+    font-size: 60px;
+line-height: 107%;
   }
 }
